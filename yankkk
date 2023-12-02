@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <h1>Hai wisna hasssiankuhhhh!</h1>
+    <img src="https://c.tenor.com/Z8ezUHZzcLoAAAAC/love.gif" />
+    <h1>Olo doho gabe parindunganku salelengna?</h1>
+    <button id="btn_mau" onclick="alert('I LOVE YOU')">Olohassian</button>&nbsp;
+    <button id="btn_dangoloau" onclick="dangoloau(this)" style="position: absolute">
+      Olo hassian
+    </button>
+  </body>
+  <script>
+    function dangoloau(id) {
+      var mau = document.getElementById("btn_mau");
+      var i = Math.floor(Math.random() * 300) + 1;
+      var j = Math.floor(Math.random() * 100) + mau.offsetTop;
+      id.style.left = i + "px";
+      id.style.top = j + "px";
+    }
+  </script>
+</html>
